@@ -1,0 +1,5 @@
+pandas
+beautifulsoup4
+selenium
+webdriver-manager
+tkinter  # Python 內建，但列出提醒

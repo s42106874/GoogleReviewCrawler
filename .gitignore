@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+crawler.log  # 日誌可不上傳
+*.csv        # 爬取結果不上傳
