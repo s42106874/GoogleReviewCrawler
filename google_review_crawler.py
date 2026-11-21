@@ -656,6 +656,13 @@ def create_gui():
     text_widget = tk.Text(output_frame, height=20, width=90, font=("微軟正黑體", 10), bg="#ffffff", fg="#333333", borderwidth=1, relief="solid")
     text_widget.pack(fill="both", expand=True)
 
+    # 依內容所需大小調整視窗，避免按鈕被切掉
+    root.update_idletasks()
+    w = max(800, root.winfo_reqwidth())
+    h = max(600, root.winfo_reqheight())
+    root.minsize(w, h)
+    root.geometry(f"{w}x{h}")
+
     root.mainloop()
 
 if __name__ == "__main__":
