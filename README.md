@@ -1,5 +1,8 @@
 # Google Maps 評論爬蟲
 
+![操作介面](docs/screenshot.png)
+
+
 ## 功能
 - 輸入地區與店家類型，自動搜尋 Google Maps 店家。
 - 爬取在地嚮導評論（名稱、日期、內容、星級）。
